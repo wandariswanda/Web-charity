@@ -35,7 +35,7 @@
 								</li>
 							</ul>
 							<div class="logout-btn">
-								<a href="<?= base_url("cms/signin/signout"); ?>" class="btn btn-primary">Logout</a>
+								<a href="<?= base_url("auth/signout"); ?>" class="btn btn-primary">Logout</a>
 							</div>
 						</div>
 					</li>

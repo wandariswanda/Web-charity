@@ -8,7 +8,7 @@ class Auth extends BaseController
     public function __construct(){
         // $this->load->library('session');
         // $request = \Config\Services::request();
-        
+        $this->session = \Config\Services::session();
 	}
 
     public function index(){
@@ -72,5 +72,10 @@ class Auth extends BaseController
         // $hai = strlen('70462398-e995-4f73-858f-954a542a5927');
         // print_r($hai); die();
         // return view('auth/signin');
+    }
+
+    public function logout(){
+        $this->session->destroy();
+        return redirect()->to(base_url('/'));
     }
 }

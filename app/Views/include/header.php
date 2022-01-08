@@ -14,22 +14,22 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 	
 	<!-- Common CSS -->
-	<link rel="stylesheet" href="<?= base_url() ?>/assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css') ?>" />
 	
-	<link rel="stylesheet" href="<?= base_url() ?>/assets/fonts/icomoon/icomoon.css" />
-	<link rel="stylesheet" href="<?= base_url() ?>/assets/css/main.css" />
-	<link rel="stylesheet" href="<?= base_url() ?>/assets/css/custom.css" />
+	<link rel="stylesheet" href="<?= base_url('fonts/icomoon/icomoon.css') ?>" />
+	<link rel="stylesheet" href="<?= base_url('css/main.css') ?>" />
+	<link rel="stylesheet" href="<?= base_url('css/custom.css') ?>" />
 	<!-- Other CSS includes plugins - Cleanedup unnecessary CSS -->
 	<!-- Chartist css -->
-	<link href="<?= base_url() ?>/assets/vendor/chartist/css/chartist.min.css" rel="stylesheet" />
-	<link href="<?= base_url() ?>/assets/vendor/chartist/css/chartist-custom.css" rel="stylesheet" />
+	<link href="<?= base_url('vendor/chartist/css/chartist.min.css" rel="stylesheet') ?>" />
+	<link href="<?= base_url('vendor/chartist/css/chartist-custom.css" rel="stylesheet') ?>" />
 
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 	<!-- Data Tables -->
-	<link rel="stylesheet" href="<?= base_url() ?>/assets/vendor/datatables/dataTables.bs4.css" />
-	<link rel="stylesheet" href="<?= base_url() ?>/assets/vendor/datatables/dataTables.bs4-custom.css" />
+	<link rel="stylesheet" href="<?= base_url('vendor/datatables/dataTables.bs4.css') ?>" />
+	<link rel="stylesheet" href="<?= base_url('vendor/datatables/dataTables.bs4-custom.css') ?>" />
 
 	<!-- Selectpicker -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css">
@@ -40,10 +40,10 @@
 	<link rel="stylesheet" type="text/css" media="screen" href="http://tarruda.github.com/bootstrap-datetimepicker/assets/css/bootstrap-datetimepicker.min.css">
 
 	<!-- Notify -->
-	<!-- <link rel="stylesheet" type="text/css" href="<?= base_url('assets/vendor/notify/notify-flat.css'); ?>"></link> -->
+	<!-- <link rel="stylesheet" type="text/css" href="<?= base_url('vendor/notify/notify-flat.css'); ?>"></link> -->
 
-	<script src="<?= base_url() ?>/assets/js/jquery.js"></script>
-	<script src="<?= base_url() ?>/assets/js/tether.min.js"></script>
+	<script src="<?= base_url('js/jquery.js') ?>"></script>
+	<script src="<?= base_url('js/tether.min.js') ?>"></script>
 
 	<!-- Mask Money -->
 	<script src="https://cdn.rawgit.com/igorescobar/jQuery-Mask-Plugin/1ef022ab/dist/jquery.mask.min.js"></script>
@@ -51,7 +51,7 @@
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7Mr1SnmpnkqSqZZcFDXOPK0LVGJ1aqV4"></script>
 
 	<!-- Summernote -->
-	<link rel="stylesheet" href="<?= base_url() ?>/assets/summernote/summernote-lite.css" />
+	<link rel="stylesheet" href="<?= base_url('summernote/summernote-lite.css') ?>" />
 	<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
 
 </head>

@@ -14,6 +14,6 @@
 			<!-- END .app-container -->
 		</div>
 	</body>
-	<?php echo view("include/script.php");?>
-	<?php echo view("include/footer.php");?>
+	<?php echo view("include/script");?>
+	<?php echo view("include/footer");?>
 </html>

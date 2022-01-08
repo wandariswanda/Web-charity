@@ -4,7 +4,7 @@
 	<div class="side-content ">
 		<!-- BEGIN .user-profile -->
 		<div class="user-profile">
-			<img src="<?= base_url('assets_backend/back_end/') ?>img/user.png" class="profile-thumb" alt="User Thumb">
+			<img src="<?= base_url('img/user.png') ?>" class="profile-thumb" alt="User Thumb">
 			<h6 class="profile-name">Nama session</h6>
 			<ul class="profile-actions">
 				
