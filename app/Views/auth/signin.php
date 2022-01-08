@@ -31,21 +31,22 @@
 				<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
 					<?php 
           if(session()->getFlashData('error')){
-            echo session()->getFlashData('error');
-          }
+          //   echo session()->getFlashData('error');
+          // }
 
           // if(flashdata_check("failed")=="Password salah"){ 
             ?>
-						<!-- <div class="alert alert-danger">
+						<div class="alert alert-danger">
 							<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
-							<i class="icon-warning2"></i><strong>Perhatian!</strong> Tolong cek Email dan Password
-						</div> -->
+							<i class="icon-warning2"></i><strong>Perhatian!</strong> <?= session()->getFlashData('error'); ?>
+						</div>
 					<?php 
+          }
         // } 
         ?>
-					<form action="<?= base_url("cms/signin/doLogin/"); ?>" method="post">
+					<form method="post" action="<?= base_url("auth/signin"); ?>">
 						<div class="login-container">
 							<div class="row no-gutters">
 								<div class="col-xl-4 col-lg-5 col-md-6 col-sm-12">
@@ -54,8 +55,8 @@
 											<img src="<?= base_url() ?>img/unify.png" alt="Unify Admin Dashboard" />
 										</a> -->
 										<div class="input-group">
-											<span class="input-group-addon" id="email"><i class="icon-account_circle"></i></span>
-											<input type="text" class="form-control" placeholder="Email" aria-label="email" aria-describedby="email" name="email">
+											<span class="input-group-addon" id="username"><i class="icon-account_circle"></i></span>
+											<input type="text" class="form-control" placeholder="Username" aria-label="username" aria-describedby="username" name="username">
 										</div>
 										<br>
 										<div class="input-group">

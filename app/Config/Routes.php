@@ -33,6 +33,11 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 // $routes->get('/', 'Home::index');
 $routes->get('/', 'Auth::index');
+$routes->post('/auth/signin', 'Auth::signin');
+
+/* Dashboard */
+$routes->get('/dashboard', 'Dashboard::Index');
+// $routes->get('/dashboard/(:any)', 'DashboardController::index/$1');
 
 /*
  * --------------------------------------------------------------------
