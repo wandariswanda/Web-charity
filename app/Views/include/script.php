@@ -51,12 +51,12 @@
 <script src="https://code.highcharts.com/modules/export-data.js"></script>
 
 <!-- NUMBER FORMAT -->
-<script src="<?= base_url('assets/vendor/number/jquery.number.js'); ?>"></script>
-<script src="<?= base_url('assets/vendor/number/jquery.number.min.js'); ?>"></script>
+<script src="<?= base_url('vendor/number/jquery.number.js'); ?>"></script>
+<script src="<?= base_url('vendor/number/jquery.number.min.js'); ?>"></script>
 
-<!-- <script src="<?= base_url('assets/ckeditor/ckeditor.js'); ?>"></script>
-<script src="<?= base_url('assets/ckeditor/sample.js'); ?>"></script> -->
+<!-- <script src="<?= base_url('ckeditor/ckeditor.js'); ?>"></script>
+<script src="<?= base_url('ckeditor/sample.js'); ?>"></script> -->
 
 <!-- Summernote -->
-<script src="<?= base_url('assets/summernote/') ?>summernote-lite.js"></script>
+<script src="<?= base_url('summernote/summernote-lite.js') ?>"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
