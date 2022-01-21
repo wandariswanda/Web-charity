@@ -37,8 +37,16 @@ $routes->post('/auth/signin', 'Auth::signin');
 $routes->get('/auth/logout', 'Auth::logout');
 
 /* Dashboard */
-$routes->get('/dashboard', 'Dashboard::Index');
+// $routes->get('/dashboard', 'Dashboard::Index');
 // $routes->get('/dashboard/(:any)', 'DashboardController::index/$1');
+
+/* Basic */
+$routes->get('/basic', 'Dashboard::Index');
+$routes->get('/basic/v/add', 'Dashboard::add');
+$routes->post('/basic/create', 'Dashboard::createBasic');
+$routes->get('/basic/(:segment)', 'Dashboard::getBasicById/$1');
+$routes->post('/basic/update/(:any)', 'Dashboard::updateBasic/$1');
+$routes->get('/basic/delete/(:any)', 'Dashboard::deleteBasic/$1');
 
 /*
  * --------------------------------------------------------------------
